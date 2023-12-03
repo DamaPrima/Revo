@@ -18,6 +18,7 @@
         <div class="header__block">
             <div class="header__block__logo">
                 <img class="header__block__logo-image" src="img_coffe/revo_logo.svg" alt="Logo">
+
                 <div class="header__block__menu">
                     <span></span>
                     <span></span>
@@ -29,27 +30,26 @@
                     <span>COFFEE</span>
                 </div>
             </div>
+
             <div class="header__block__video">
-                <video loop muted poster="img_coffe/coffee-720.mp4" src="img_coffe/coffee-720.mp4" autoplay> </video>
+                <video loop muted src="img_coffe/coffee-720.mp4" autoplay> </video>
             </div>
         </div>
 
         <div class="header__menu">
-           <nav class="header__menu__nav">
-            <ul class="header__menu__list">
-                <li><img class="header__menu-cart" src="img_coffe/CART.svg" alt="Cart"></li>
-                <li>TRANG CHỦ</li>
-                <li><a href="#coffe">COFFE</a></li>
-                <li><a href="#catalog">PHIN MẠ MÀU</a></li>
-                <li><a href="page_404.html">COMBO PHIN PHÊ</a></li>
-                <li><a href="#giftset">GIFTSET</a></li>
-                <li><a href="#footer">LIÊN HỆ</a></li>
-            </ul>
-           </nav>
+            <nav class="header__menu__nav">
+                <ul class="header__menu__list">
+                    <li><img class="header__menu-cart" src="img_coffe/CART.svg" alt="Cart"></li>
+                    <li>TRANG CHỦ</li>
+                    <li><a href="#coffe">COFFE</a></li>
+                    <li><a href="#catalog">PHIN MẠ MÀU</a></li>
+                    <li><a href="page_404.html">COMBO PHIN PHÊ</a></li>
+                    <li><a href="#giftset">GIFTSET</a></li>
+                    <li><a href="#footer">LIÊN HỆ</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
-
-
 
     <section class="features" id="coffe">
         <div class="section__title">
@@ -104,8 +104,6 @@
             </div>
         </div>
     </section>
-
-
 
     <section class="catalog-coffe" id="catalog">
         <div class="section__title">
@@ -182,7 +180,7 @@
                                 REVO Everyday
                             </h1>
                             <p class="catalog-coffe__cards__content__text light">
-                                cân bằng, hậu đắng, vị chocolate 
+                                cân bằng, hậu đắng, vị chocolate
                             </p>
                         </div>
                         <div class="catalog-coffe__cards__content__btn">
@@ -588,12 +586,12 @@
         })
         let menuItems = menu.querySelectorAll('li'); // Предположим, что элементы меню находятся внутри тегов <li>
 
-menuItems.forEach(item => {
-    item.addEventListener('click', function () {
-        menuBtn.classList.remove('active');
-        menu.classList.remove('active');
-    });
-});
+        menuItems.forEach(item => {
+            item.addEventListener('click', function () {
+                menuBtn.classList.remove('active');
+                menu.classList.remove('active');
+            });
+        });
     </script>
 
 
